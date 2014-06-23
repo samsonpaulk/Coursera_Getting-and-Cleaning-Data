@@ -3,7 +3,6 @@ library(data.table)
 
 # 0. load test and training sets and the activities
 # Use the course CDN instead of the original UCI zip file.
-
 #fileUrl <- "http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip"
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "Dataset.zip")
